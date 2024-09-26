@@ -10,7 +10,7 @@
 ### Описание проекта
 Угадать загаданное компьютером число за минимальное число попыток.
 
-:arrow_up:[к оглавлению](https://github.com/olegrasskazovpro/sf_data_science/tree/project_0/README.md#Оглавление)
+:arrow_up: [к оглавлению](https://github.com/olegrasskazovpro/sf_data_science/tree/project_0/README.md#Оглавление)
 
 ### Какой кейс решаем?
 Нужно написать программу, которая угадывает число за минимальное число попыток.
@@ -28,4 +28,4 @@
 ### Краткая информация о данных
 ...
 
-:arrow_up:[к оглавлению](https://github.com/olegrasskazovpro/sf_data_science/tree/project_0/README.md#Оглавление)
+:arrow_up: [к оглавлению](https://github.com/olegrasskazovpro/sf_data_science/tree/project_0/README.md#Оглавление)
