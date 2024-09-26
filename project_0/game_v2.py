@@ -19,6 +19,33 @@ def random_predict(number:int=1) -> int:
             break # выход из цикла, если угадали
     return(count)
 
+def half_devision_predict(number:int=1) -> int:
+    """Угадаывает число методом деления интервала на 2
+
+    Args:
+        number (int, optional): Загаданное число. Defaults to 1.
+
+    Returns:
+        int: Число попыток
+    """
+
+    count = 0
+    guess_arr = list(range(1, 101))
+
+    while True:
+        count += 1
+        guess_len = len(guess_arr)
+        mid_ind = guess_len // 2
+        guess_no = guess_arr[mid_ind]
+        if guess_no == number:
+            break # выход из цикла, если угадали
+        elif guess_no > number:
+            guess_arr = guess_arr[:mid_ind:]
+        else:
+            guess_arr = guess_arr[mid_ind + 1::]
+
+    return(count)
+
 print(f'Количество попыток: {random_predict()}')
 
 def score_game(random_predict) -> int:
@@ -45,4 +72,4 @@ def score_game(random_predict) -> int:
 
 # RUN
 if __name__ == '__main__':
-    score_game(random_predict)
+    score_game(half_devision_predict)
