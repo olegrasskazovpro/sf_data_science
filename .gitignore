@@ -163,4 +163,4 @@ cython_debug/
 
 # Исключаем csv файлы
 CSV: .csv
-.DS_Store
+*.DS_Store
